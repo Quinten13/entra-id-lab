@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This lab demonstrates hands-on experience with Identity and Access Management (IAM) using Microsoft Entra ID (Azure AD).
+Designed and implemented an IAM lab in Microsoft Entra ID to simulate real-world identity and authentication workflows.
 
 The goal was to simulate a real-world environment by creating users, assigning roles, enforcing security controls, and analyzing authentication activity.
 
@@ -41,14 +41,13 @@ The following login scenarios were tested and analyzed:
 
 ### ❌ Failed Login Attempt
 
+Repeated occurrences of error 50126 could indicate password-guessing or user credential issues, which would require further investigation in a real SOC environment.
+
 * Error Code: 50126
 * Cause: Invalid username or password
 * Insight: Demonstrates detection of incorrect credential usage
 
-### ⚠️ Interrupted Login
-
-* MFA required but not completed
-* Insight: Shows enforcement of additional authentication
+---
 
 ### ✅ Successful Login
 
@@ -58,6 +57,8 @@ The following login scenarios were tested and analyzed:
 ---
 
 ## 📸 Screenshots
+
+The screenshots below provide evidence of IAM configuration, RBAC role assignment, MFA enforcement, and authentication log analysis performed during the lab.
 
 * IAM user creation
 * RBAC role assignment
